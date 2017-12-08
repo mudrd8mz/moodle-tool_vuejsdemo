@@ -3,6 +3,7 @@ define(['tool_vuejsdemo/vue'], function(Vue) {
 
     function init() {
         new Vue({
+            delimiters: ["[[", "]]"],
             el: "#app",
             data: {
                 message: "It works!"

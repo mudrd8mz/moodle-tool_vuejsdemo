@@ -27,5 +27,5 @@ $PAGE->set_url(new moodle_url('/admin/tool/vuejsdemo/index.php'));
 $PAGE->requires->js_call_amd('tool_vuejsdemo/demo', 'init');
 
 echo $OUTPUT->header();
-echo '<div id="app">{{ message }}</div>';
+echo $OUTPUT->render_from_template('tool_vuejsdemo/app', []);
 echo $OUTPUT->footer();

@@ -2,8 +2,8 @@ Prepare a skeleton of your plugin. In this example we use `tool_vuejsdemo`.
 
 Obtaining Vue.js (v2.5.9. in this example)
 
-* Download https://github.com/vuejs/vue/blob/v2.5.9/dist/vue.js as amd/src/vue.js
-* Download https://github.com/vuejs/vue/blob/v2.5.9/dist/vue.min.js as amd/build/vue.min.js
+* Download https://github.com/vuejs/vue/blob/v2.5.22/dist/vue.js as amd/src/vue.js
+* Download https://github.com/vuejs/vue/blob/v2.5.22/dist/vue.min.js as amd/build/vue.min.js
 
 Prepare the Mustache template, for example templates/app.mustache:
 
